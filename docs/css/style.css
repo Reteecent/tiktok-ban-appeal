@@ -20,7 +20,7 @@ body, {
     display: block;
     text-align: center;
 }
-.hiddenpage {
+.page.hiddenpage {
     display: none;
 }
 #tiktok-style {
