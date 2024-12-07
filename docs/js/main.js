@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let formData = {};
 
-    emailjs.init('C0vUDQkqdD8J7EQdJ'); // Replace with your EmailJS Public Key
+    emailjs.init('FZpOzwvuebcCdRXS3'); // Replace with your EmailJS Public Key
 
     // Function to show a page
     function showPage(pageIndex) {
@@ -61,8 +61,8 @@ document.addEventListener('DOMContentLoaded', () => {
             nationality: data.nationality
         };
 
-        return emailjs.send('service_n0kragm',
-            'template_yl79668',
+        return emailjs.send('service_mtruhej',
+            'template_xe62yav',
             emailParams)
         .then((response) => {
             console.log('Email successfully sent:', response.status, response.text);
