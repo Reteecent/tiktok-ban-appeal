@@ -34,7 +34,8 @@ body, {
     padding: 0px 80px 0px 0px;
 }
 textarea {
-    padding-left: 5px;
+    padding: 16px;
+    line-height: 1.5;
     height: 276px;
     width: 340px;
     outline: none;
@@ -99,9 +100,8 @@ input {
     background-color: #F3F3F3;
     padding-left: 10px;
 }
-::placeholder {
-    padding-left: 11px;
-    padding-top: 8px;
+textarea::placeholder {
+    color: gray;
     font-family: Arial;
     font-size: 1.5em;
 }
