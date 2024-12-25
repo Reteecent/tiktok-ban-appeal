@@ -1,5 +1,3 @@
-# my-portfolio
-A portfolio to showcase my professional web dev projects starting with a TikTok inspired ban appeal page.
 # **TikTok Ban Appeal Page**
 
 A TikTok-inspired ban appeal page built with HTML, CSS, and JavaScript. This project demonstrates frontend development skills, including form validation, dynamic page loading, and email integration using EmailJS.
