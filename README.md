@@ -17,7 +17,7 @@ A TikTok-inspired ban appeal page built with HTML, CSS, and JavaScript. This pro
 ## **How to Run Locally**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/reteecent/tiktok-ban-appeal.git
+   git clone https://github.com/Reteecent/tiktok-ban-appeal.git
 2. Sign up for a free EmailJS account and create an email template. Take note of the Template ID; Also take note of your public key and service ID.
 3. In the **main.js** file,
 replace the **PUBLIC_KEY**, **SERVICE_ID**, and **TEMPLATE_ID** with their respective values.
