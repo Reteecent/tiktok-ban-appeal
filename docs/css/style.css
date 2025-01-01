@@ -108,7 +108,6 @@ textarea::placeholder {
 }
 
 #feedback-icon {
-    display: flex;
     height: 135px;
     line-height: 0.235px;
 }
