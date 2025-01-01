@@ -30,8 +30,9 @@ body, html{
 }
 #tiktok-logo {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 0px 80px 0px 0px;
+    align-items: center;
 }
 textarea {
     padding: 16px;
@@ -66,17 +67,13 @@ form {
 }
 #logo-icon {
     height: 165px;
-    padding-left: 26%;
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 h2 {
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 15px;
     font-family: Comic Sans MS;
 }
 span {
@@ -102,22 +99,17 @@ textarea::placeholder {
     color: gray;
     font-size: 1.5em;
 }
-/**
+
 #24hrs-icon {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-**/
+
 #feedback-icon {
     display: flex;
-    justify-content: center;
     height: 135px;
-    padding-top: 195px;
-    /**
-    padding-left: 130px;
-    **/
-    margin-left: 130px;
     line-height: 0.235px;
 }
 p {
