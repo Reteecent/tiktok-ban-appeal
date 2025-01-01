@@ -1,4 +1,4 @@
-body, {
+body, html{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -112,10 +112,12 @@ textarea::placeholder {
 #feedback-icon {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 135px;
     padding-top: 195px;
+    /**
     padding-left: 130px;
+    **/
+    margin-left: 130px;
     line-height: 0.235px;
 }
 p {
